@@ -51,7 +51,7 @@ services:
       - POSTGRESQL_SSLMODE=disable
       - REGISTRY_URL=http://registry:5000
       - TOKEN_SERVICE_URL=http://core:8080/service/token
-      - HARBOR_ADMIN_PASSWORD=bitnami
+      - HARBOR_ADMIN_PASSWORD=admin
       - CORE_SECRET=CHANGEME
       - JOBSERVICE_SECRET=CHANGEME
       - ADMIRAL_URL=
