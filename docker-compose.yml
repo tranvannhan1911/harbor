@@ -30,6 +30,7 @@ services:
     image: docker.io/bitnami/harbor-core:2
     container_name: harbor-core
     depends_on:
+      - postgresql
       - registry
       - chartmuseum
     environment:
